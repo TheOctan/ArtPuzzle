@@ -10,14 +10,14 @@ namespace OctanGames
 	public class DropSlot : MonoBehaviour, IDropHandler
 	{
 		[SerializeField] private int _id;
-		[SerializeField] private UnityEvent _itemDroped;
+		[SerializeField] private UnityEvent _itemDropped;
 
 		private RectTransform _rectTransform;
 
-		public event UnityAction ItemDroped
+		public event UnityAction ItemDropped
 		{
-			add => _itemDroped.AddListener(value);
-			remove => _itemDroped.RemoveListener(value);
+			add => _itemDropped.AddListener(value);
+			remove => _itemDropped.RemoveListener(value);
 		}
 
 		private void Awake()
@@ -38,7 +38,7 @@ namespace OctanGames
 					item.isDroped = true;
 					item.enabled = false;
 
-					_itemDroped.Invoke();
+					_itemDropped.Invoke();
 				}
 				else
 				{
