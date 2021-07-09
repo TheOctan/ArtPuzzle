@@ -1030,9 +1030,21 @@ MonoBehaviour:
   - {fileID: 594996585}
   - {fileID: 2007096276}
   - {fileID: 1934330702}
-  _itemDroped:
+  _panelCompleted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1254548766}
+        m_TargetAssemblyTypeName: OctanGames.LevelManager, Assembly-CSharp
+        m_MethodName: OnGameOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &917892273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1926,7 +1938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb2c18a0a73548b46b1e6039f90d44d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _panel: {fileID: 869312387}
 --- !u!224 &1268043641 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8892665019929350605, guid: 44132592809ea0e4dbd6b547a9118a1c, type: 3}

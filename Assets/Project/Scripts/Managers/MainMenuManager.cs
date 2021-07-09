@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace OctanGames
+namespace OctanGames.Managers
 {
     public class MainMenuManager : MonoBehaviour
     {

@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-namespace OctanGames
+namespace OctanGames.Managers
 {
     public class LevelManager : MonoBehaviour
     {
         public void OnGameOver()
 		{
-            Debug.Log("Game over");
+            SceneManager.LoadScene("FinalScene");
 		}
     }
 }
