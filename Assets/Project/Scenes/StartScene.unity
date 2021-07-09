@@ -842,9 +842,33 @@ PrefabInstance:
     m_TransformParent: {fileID: 2059775385}
     m_Modifications:
     - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1591805601}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnStartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OctanGames.Managers.MainMenuManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 443911142551185210, guid: b19d683709584254ba6adc550b493f96, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 443911142551185211, guid: b19d683709584254ba6adc550b493f96, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
